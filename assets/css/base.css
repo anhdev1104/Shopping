@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #EE4D2D;
+  --primary-color: #ee4d2d;
   --white-color: #fff;
   --black-color: #000;
   --text-color: #333;
   --border-color: #dbdbdb;
-  --star-gold-color: #FFCE3E;
+  --star-gold-color: #ffce3e;
   --header-height: 120px;
   --navbar-height: 34px;
   --search-height: calc(var(--header-height) - var(--navbar-height));
@@ -17,7 +17,7 @@
 html {
   font-size: 62.5%;
   line-height: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -37,7 +37,6 @@ html {
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
-
 }
 
 /* test */
@@ -59,14 +58,12 @@ html {
   width: 83.3334%;
 }
 
-
-
 /* Animation */
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-  } 
+  }
   to {
     opacity: 1;
   }
@@ -128,7 +125,7 @@ html {
 }
 
 .btn.btn--normal:hover {
-background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .btn.btn--primary {
@@ -164,14 +161,12 @@ background-color: rgba(0, 0, 0, 0.05);
 
 .seclect-input__label {
   font-size: 1.4rem;
-
 }
 
 .seclect-input__icon {
   font-size: 1.4rem;
   color: #656565;
 }
-
 
 .select-input__list {
   position: absolute;
@@ -197,7 +192,6 @@ background-color: rgba(0, 0, 0, 0.05);
 
 .select-input__link:hover {
   color: var(--primary-color);
-
 }
 
 .select-input:hover .select-input__list {
@@ -236,11 +230,3 @@ background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
   border-radius: 2px;
 }
-
-.pagination-item__icon {
-
-}
-
-
-
-
